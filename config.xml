@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "org.frozza.PGB"
+        version   = "0.0.1">
+    <name>PhoneGap Build Test</name>
+    <description>PhoneGap Build Test</description>
+    <author href="http://www.ifc-camboriu.edu.br/~frozza" email="frozza@ifc-camboriu.edu.br">
+        Angelo Augusto Frozza
+    </author>
+    <preference name="phonegap-version" value="2.7.0" />
+    <preference name="orientation"      value="default" />
+    <preference name="target-device"    value="universal" />
+    <preference name="fullscreen"       value="true" />
+    <preference name="android-minSdkVersion" value="7" />
+    <gap:platform name="android" />
+    <gap:plugin name="org.apache.cordova.device" />
+    <icon src="AngeloPoke.png" />
+</widget>
