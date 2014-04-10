@@ -38,7 +38,7 @@
       </script> 
    </head> 
 
-   <body onLoad="inicializa();"> 
+   <body> 
       <div data-role="page" id="home">
        
          <div data-role="header">
@@ -47,6 +47,8 @@
        
          <div role="main" class="ui-content"> 
             <a href="#form">"Pedido</a>
+            
+            <button onClick="inicializa();">Dispositivo</button>
          </div>
        
          <div data-role="footer">
@@ -98,7 +100,7 @@
                
                <div class="ui-body-a">
                   <fieldset class="ui-grid-a">
-                     <div class="ui-block-a"><button type="submit" data-theme="b">Cancela</button></div>
+                     <div class="ui-block-a"><button type="reset" data-theme="b">Cancela</button></div>
                      <div class="ui-block-b"><button type="submit" data-theme="a">Enviar</button></div>     
                   </fieldset>
                </div>
